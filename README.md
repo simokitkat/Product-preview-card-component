@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/simokitkat/Product-preview-card-component)
+- Solution URL: [Github Repository](https://github.com/simokitkat/Product-preview-card-component)
 - Live Site URL: [Frontend Mentor | Product preview card component](https://simokitkat.github.io/Product-preview-card-component)
 
 ## My process
