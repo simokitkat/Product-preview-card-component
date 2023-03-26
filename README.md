@@ -37,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@simokitkat](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@simokitkat](https://www.frontendmentor.io/profile/simokitkat)
 - Linkedin - [Islam Soliman](https://www.linkedin.com/in/islamsoliman92)
