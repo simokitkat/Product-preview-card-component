@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2EAE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
+
+main {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card>img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    padding: 32px;
+}
+
+p:first-child {
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+}
+
+h1 {
+    height: 96px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    margin: 20px 0 24px;
+}
+
+p:nth-child(3) {
+    height: 92px;
+    width: 237px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+.price {
+    display: flex;
+    margin: 29px 0 30px;
+    align-items: center;
+    gap: 19px;
+}
+
+h2 {
+    height: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+span {
+    display: block;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+button {
+    width: 236px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11.61px;
+    background: #3D8168;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button img {
+    display: block;
+    width: 14.39px;
+    height: 16px;
+}
+
+button:hover {
+    background: #1A4032;
+}
+
+
+/* Mobile Design */
+@media (max-width:700px) {
+    main {
+        width: 375px;
+        height: 667px;
+    }
+
+    .card {
+        width: 343px;
+        height: 611px;
+        flex-direction: column;
+    }
+
+    .card>img {
+        width: 100%;
+        height: 240px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .text {
+        width: 100%;
+        padding: 24px;
+        height: calc(100% - 240px);
+    }
+
+    h1 {
+        height: 64px;
+        margin: 12px 0 16px;
+    }
+
+    p:nth-child(3) {
+        width: 295px;
+    }
+
+    .price {
+        margin: 24px 0 20px;
+    }
+
+    button {
+        width: 295px;
+    }
+}
